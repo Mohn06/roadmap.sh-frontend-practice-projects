@@ -7,7 +7,7 @@ learning and practicing web development.
 
 | # | Project | Technologies | Status |
 |---|---------|--------------|--------|
-| 1 | [Single Page CV](./01-Single-page-cv/) | HTML, CSS | Completed |
+| 1 | [Single Page CV](./01-Single-page-cv/) | HTML | Completed |
 | 2 | [Basic HTML Website](./02-Basic-html-website/) | HTML | Completed |
 
 ## Skills I'm Practicing
