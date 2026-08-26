@@ -1,0 +1,44 @@
+/* Global */
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 1.5;
+    padding: 0 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a{
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    
+}
+
+nav ul li a:hover {
+    outline: 1px solid;
+    border-radius: 5px;
+    
+}
