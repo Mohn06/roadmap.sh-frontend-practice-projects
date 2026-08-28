@@ -17,10 +17,22 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Contacts</h1>
+        <section class="Contact">
+            <h1>Contact me</h1>
             Email: <a href="mailto:mohnjasfer06@gmail.com">mohnjasfer06@gmail.com</a><br>
             Phone: (63) 945 859 3205
+            <form action="/sample_page.php">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea ><br>
+
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
 </body>
