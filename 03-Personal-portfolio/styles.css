@@ -1,7 +1,7 @@
 /* Global */
 body {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: white;
+    color: black;
     line-height: 1.5;
     padding: 0 1rem;
 }
@@ -16,24 +16,37 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 
 /* Header */
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem 0;
     border-bottom: 1px solid;
 }
 
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 nav ul {
     display: flex;
-    gap: 1rem;
 }
 
 nav ul li a{
     font-size: 1.5rem;
     padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem;
     
 }
 
@@ -41,4 +54,161 @@ nav ul li a:hover {
     outline: 1px solid;
     border-radius: 5px;
     
+}
+
+/* Theme-Toggle */
+
+.theme-toggle {
+    position: relative;
+    width: 50px;
+    height: 26px;
+    display: inline-block;
+}
+
+.theme-toggle input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.slider::before {
+    content:"";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 3px;
+    top: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.theme-toggle input:checked + .slider {
+    background-color: #555;
+}
+
+.theme-toggle input:checked + .slider::before {
+    transform: translateX(25px);
+}
+
+body:has(.theme-toggle input:checked) {
+    background-color: black;
+    color: white;
+}
+
+/*Main Content*/
+main {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Intro {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Intro h1,
+.Intro p {
+    margin: 1rem;
+}
+
+/* Sections */
+
+.Intro,
+.Projects,
+.Work-Experience,
+.Education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Projects ul {
+    text-align: center;
+    padding: 0;
+}
+
+.Projects li {
+    margin-bottom: 1rem;
+}
+
+.Work-Experience h3 {
+    text-align: left;
+}
+
+.Work-Experience article {
+    margin-bottom: 2rem;
+}
+
+.Education ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+
+
+.review-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+blockquote {
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid;
+}
+
+
+@media (min-width: 768px) {
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.Projects {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.Work-Experience {
+    grid-area: 1 / 5 / 2 / 8;
+}
+
+.Education {
+    grid-area: 1 / 9 / 2 / 11;
+}
+
+.Projects,
+.Work-Experience,
+.Education {
+    width: unset;
+}
+h2,
+.Projects ul {
+    text-align: left;
+}
+
 }
