@@ -2,7 +2,7 @@
 
 ## Goal
 
-The goal of this project is to style the structure from the previous HTML only project [Basic HTML Website](./02-Basic-html-website/).
+The goal of this project is to style the structure from the previous HTML only project [Basic HTML Website](../02-Basic-html-website/).
 The focus will be on learning how to use CSS to create responsive layouts, apply color and typography, and enhance the overall design of the website.
 
 ## Requirements
