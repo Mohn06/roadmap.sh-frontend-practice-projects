@@ -12,8 +12,8 @@ learning and practicing web development.
 | 3 | [Personal Portfolio](./03-Personal-portfolio/) | HTML, CSS | Completed |
 | 4 | [Changelog Component](./04-Changelog-component/) | HTML, CSS | Completed |
 | 5 | [Testimonial Card](./05-Testimonial-cards/) | HTML, CSS | Completed |
-| 6 | [Datepicker UI](./06-Datepicker-ui) | HTML, CSS | Completed |
-| 7 | [Accessible Form UI](./07-Accessible-form-ui/)
+| 6 | [Datepicker UI](./06-Datepicker-ui/) | HTML, CSS | Completed |
+| 7 | [Accessible Form UI](./07-Accessible-form-ui/) | HTML, CSS | In Progress |
 
 ## Skills I'm Practicing
 
