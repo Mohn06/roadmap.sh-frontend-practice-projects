@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.datepicker {
+    width: 175px;
+    position: relative
+}
+
+.date-input {
+    display: flex;
+    height: 32px;
+    border: 1px solid #333;
+}
+
+.date-input input {
+    width: 140px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.date-input button {
+    width: 30px;
+    border: none;
+    border-left: 1px solid #333;
+    background-color: white;
+    cursor: pointer;
+}
+
+.month-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+    height: 30px;
+    border: 1px solid #333;
+   
+}
+
+.month-header span {
+    font-size: 12px;
+}
+
+.month-header button {
+    width: 30px;
+    height: 100%;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background-color: white;
+    border: 1px solid #333;
+    
+}
+
+.day-name {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-top: none;
+    font-size: 11px;
+}
+
+.empty, 
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+    border: 1px solid #333;
+    font-size: 11px;
+}
+
+.day:hover {
+    background-color: #eee;
+
+    cursor: pointer;
+}
