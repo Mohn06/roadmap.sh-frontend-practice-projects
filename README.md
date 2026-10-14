@@ -13,7 +13,8 @@ learning and practicing web development.
 | 4 | [Changelog Component](./04-Changelog-component/) | HTML, CSS | Completed |
 | 5 | [Testimonial Card](./05-Testimonial-cards/) | HTML, CSS | Completed |
 | 6 | [Datepicker UI](./06-Datepicker-ui/) | HTML, CSS | Completed |
-| 7 | [Accessible Form UI](./07-Accessible-form-ui/) | HTML, CSS | In Progress |
+| 7 | [Accessible Form UI](./07-Accessible-form-ui/) | HTML, CSS | Completed |
+| 8 | [Image Grid Layout](0./08-Image-grid-layout/) | HTML, CSS | In Progress |
 
 ## Skills I'm Practicing
 
