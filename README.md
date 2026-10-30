@@ -16,6 +16,7 @@ learning and practicing web development.
 | 7 | [Accessible Form UI](./07-Accessible-form-ui/) | HTML, CSS | Completed |
 | 8 | [Image Grid Layout](./08-Image-grid-layout/) | HTML, CSS | Completed |
 | 9 | [Tooltip UI](./09-Tooltip-ui/) | HTML, CSS | Completed |
+| 10 | [Simple Tabs](./10-Simple-Tabs/) | HTML, CSS, JavaScript| In Progress |
 
 ## Skills I'm Practicing
 
